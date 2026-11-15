@@ -7,42 +7,51 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: {
-          DEFAULT: '#3189F5',
-          hover: '#2574d9',
-          light: '#EAF4FA',
-        },
         navy: {
-          DEFAULT: '#163B65',
-          dark: '#0f2744',
-          subtle: '#2a4d77',
+          DEFAULT: '#17213B',
+          primary: '#17213B',
+          deep: '#181E2E', // Precisely calibrated to match official logo canvas background
+          darker: '#10192D',
         },
-        cyan: {
-          DEFAULT: '#48B9D5',
-          light: '#d6f2f8',
+        brand: {
+          blue: '#269DDF',
+          'blue-hover': '#1F87C0',
+          accent: '#55B9F0',
+          light: '#EDF5FC',
         },
         surface: {
-          bg: '#FAFAFA',
-          white: '#FFFFFF',
-          card: '#FFFFFF',
-          muted: '#F1F5F9',
-        }
+          DEFAULT: '#FFFFFF',
+          muted: '#EDF2F8',
+          bg: '#F5F8FC',
+        },
+        content: {
+          primary: '#202B3C',
+          secondary: '#64748B',
+          muted: '#94A3B8',
+        },
+        border: {
+          DEFAULT: '#E2E8F0',
+          subtle: '#D8E2EF',
+        },
       },
       fontFamily: {
-        sans: ['Manrope', 'system-ui', '-apple-system', 'sans-serif'],
+        sans: ['Manrope', 'sans-serif'],
       },
       borderRadius: {
-        '3xl': '24px',
-        '4xl': '32px',
-        '5xl': '40px',
+        'btn': '10px',
+        'card-sm': '14px',
+        'card': '16px',
+        'container': '20px',
+      },
+      maxWidth: {
+        'content': '1200px',
       },
       boxShadow: {
-        'soft': '0 10px 30px -5px rgba(22, 59, 101, 0.06), 0 4px 12px -2px rgba(22, 59, 101, 0.04)',
-        'float': '0 20px 40px -10px rgba(49, 137, 245, 0.15)',
-        'card-hover': '0 20px 35px -8px rgba(22, 59, 101, 0.1)',
-      }
+        'card': '0 2px 8px -2px rgba(23, 33, 59, 0.05), 0 1px 4px -1px rgba(23, 33, 59, 0.03)',
+        'card-hover': '0 12px 24px -4px rgba(23, 33, 59, 0.08), 0 4px 8px -2px rgba(23, 33, 59, 0.04)',
+        'card-featured': '0 20px 30px -10px rgba(38, 157, 223, 0.15), 0 8px 12px -4px rgba(23, 33, 59, 0.05)',
+      },
     },
   },
   plugins: [],
-}
-
+};

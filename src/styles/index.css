@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-primary: #17213B;
+  --color-secondary: #269DDF;
+  --color-accent: #55B9F0;
+  --color-deep-navy: #10192D;
+
+  --color-background: #F5F8FC;
+  --color-surface: #FFFFFF;
+  --color-surface-muted: #EDF2F8;
+
+  --color-text-primary: #202B3C;
+  --color-text-secondary: #64748B;
+  --color-border: #E2E8F0;
+}
+
+@layer base {
+  body {
+    font-family: 'Manrope', sans-serif;
+    background-color: var(--color-background);
+    color: var(--color-text-primary);
+  }
+
+  /* R-39: Explicit cursor pointer on all interactive controls */
+  button,
+  [role="button"],
+  a[href],
+  summary,
+  select,
+  label[for] {
+    cursor: pointer;
+  }
+
+  [disabled],
+  [aria-disabled="true"] {
+    cursor: not-allowed;
+  }
+}
+
+/* Accessibility: Respect Reduced Motion Preferences */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  ::before,
+  ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
