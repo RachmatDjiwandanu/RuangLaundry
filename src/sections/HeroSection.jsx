@@ -6,10 +6,10 @@ import { getWhatsAppUrl } from '../utils/whatsapp.js';
 
 export default function HeroSection() {
   return (
-    <section id="beranda" className="relative bg-navy-deep text-white overflow-hidden border-b border-white/10 min-h-screen min-[960px]:flex min-[960px]:flex-col min-[960px]:justify-center">
+    <section id="beranda" className="relative bg-navy-deep text-white overflow-hidden border-b border-white/10 min-h-screen desktop-wide:flex desktop-wide:flex-col desktop-wide:justify-center">
       
-      {/* ================= DESKTOP LAYOUT (>= 960px, including Mobile Desktop Mode at 980px) ================= */}
-      <div className="hidden min-[960px]:flex flex-col justify-center relative min-h-screen w-full">
+      {/* ================= DESKTOP LAYOUT (>= 960px AND Orientation Landscape) ================= */}
+      <div className="hidden desktop-wide:flex flex-col justify-center relative min-h-screen w-full">
         
         {/* Right Geometric Accent Wedge */}
         <div 
@@ -116,8 +116,8 @@ export default function HeroSection() {
 
       </div>
 
-      {/* ================= MOBILE / TABLET LAYOUT (< 960px) ================= */}
-      <div className="min-[960px]:hidden flex flex-col justify-between min-h-screen">
+      {/* ================= MOBILE / PORTRAIT LAYOUT (< 960px OR Portrait Orientation) ================= */}
+      <div className="desktop-wide:hidden flex flex-col justify-between min-h-screen">
         
         {/* Top Text Content */}
         <div className="pt-8 pb-4 px-4 sm:px-6">

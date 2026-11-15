@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {
+      screens: {
+        'desktop-wide': { 'raw': '(min-width: 960px) and (orientation: landscape)' },
+      },
       colors: {
         navy: {
           DEFAULT: '#17213B',
