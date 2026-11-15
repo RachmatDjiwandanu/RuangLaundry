@@ -6,10 +6,10 @@ import { getWhatsAppUrl } from '../utils/whatsapp.js';
 
 export default function HeroSection() {
   return (
-    <section id="beranda" className="relative bg-navy-deep text-white overflow-hidden border-b border-white/10 min-h-screen flex flex-col justify-center">
+    <section id="beranda" className="relative bg-navy-deep text-white overflow-hidden border-b border-white/10 min-h-screen min-[960px]:flex min-[960px]:flex-col min-[960px]:justify-center">
       
-      {/* ================= DESKTOP LAYOUT (>= lg) ================= */}
-      <div className="hidden lg:flex flex-col justify-center relative min-h-screen w-full">
+      {/* ================= DESKTOP LAYOUT (>= 960px, including Mobile Desktop Mode at 980px) ================= */}
+      <div className="hidden min-[960px]:flex flex-col justify-center relative min-h-screen w-full">
         
         {/* Right Geometric Accent Wedge */}
         <div 
@@ -116,14 +116,14 @@ export default function HeroSection() {
 
       </div>
 
-      {/* ================= MOBILE / TABLET LAYOUT (< lg) ================= */}
-      <div className="lg:hidden">
+      {/* ================= MOBILE / TABLET LAYOUT (< 960px) ================= */}
+      <div className="min-[960px]:hidden flex flex-col justify-between min-h-screen">
         
         {/* Top Text Content */}
-        <div className="pt-8 pb-8 px-4 sm:px-6">
+        <div className="pt-8 pb-4 px-4 sm:px-6">
           <Container>
             {/* Logo */}
-            <div className="mb-6">
+            <div className="mb-5 sm:mb-6">
               <a href="#beranda" className="inline-block" aria-label="RuangLaundry">
                 <img
                   src="/assets/logo-ruanglaundry.png"
@@ -180,7 +180,7 @@ export default function HeroSection() {
         </div>
 
         {/* Dynamic Angled Photo Section on Mobile */}
-        <div className="relative w-full h-[280px] sm:h-[360px] overflow-hidden">
+        <div className="relative w-full flex-1 min-h-[260px] max-h-[380px] overflow-hidden mt-2">
           <div 
             className="w-full h-full"
             style={{ clipPath: 'polygon(0 0, 100% 4%, 100% 100%, 0 96%)' }}

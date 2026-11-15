@@ -16,7 +16,7 @@ export default function Navbar() {
   // Close mobile menu on resize to desktop
   useEffect(() => {
     const handleResize = () => {
-      if (window.innerWidth >= 1024 && mobileMenuOpen) {
+      if (window.innerWidth >= 960 && mobileMenuOpen) {
         setMobileMenuOpen(false);
       }
     };
@@ -68,7 +68,7 @@ export default function Navbar() {
           </a>
 
           {/* Desktop Navigation Links */}
-          <nav className="hidden lg:flex items-center gap-1.5 xl:gap-2">
+          <nav className="hidden min-[960px]:flex items-center gap-1.5 xl:gap-2">
             {navigationLinks.map((link) => (
               <a
                 key={link.href}
@@ -82,7 +82,7 @@ export default function Navbar() {
           </nav>
 
           {/* Desktop Right CTA */}
-          <div className="hidden lg:flex items-center gap-3">
+          <div className="hidden min-[960px]:flex items-center gap-3">
             <Button
               variant="primary"
               size="sm"
@@ -95,7 +95,7 @@ export default function Navbar() {
           </div>
 
           {/* Mobile Hamburger Button */}
-          <div className="flex lg:hidden items-center">
+          <div className="flex min-[960px]:hidden items-center">
             <button
               type="button"
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
