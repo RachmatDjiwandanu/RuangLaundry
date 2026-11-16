@@ -69,7 +69,7 @@ export default function HeroSection() {
 
               {/* Subheadline Description */}
               <p className="text-base xl:text-lg text-surface-muted/90 leading-relaxed mb-10 max-w-lg">
-                RuangLaundry menyediakan sistem pemesanan laundry berbasis website untuk membantu bisnis Anda mengelola pesanan dan memberikan pengalaman layanan yang lebih praktis bagi pelanggan.
+                RuangLaundry menyediakan jasa pembuatan website dan sistem pemesanan laundry online untuk membantu pemilik usaha di Bekasi, Jabodetabek, dan seluruh Indonesia mengelola pesanan lebih praktis.
               </p>
 
               {/* Primary Action Buttons */}
@@ -141,7 +141,7 @@ export default function HeroSection() {
             </p>
 
             <p className="text-sm sm:text-base text-surface-muted/90 leading-relaxed mb-6">
-              RuangLaundry menyediakan sistem pemesanan laundry berbasis website untuk membantu bisnis Anda mengelola pesanan dan memberikan pengalaman layanan yang lebih praktis bagi pelanggan.
+              RuangLaundry menyediakan jasa pembuatan website dan sistem pemesanan laundry online untuk membantu pemilik usaha di Bekasi, Jabodetabek, dan seluruh Indonesia mengelola pesanan lebih praktis.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-3 w-full mb-6">

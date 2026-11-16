@@ -58,10 +58,10 @@ export const faqData = [
     question: 'Apa itu layanan Maintenance Web?',
     answer: 'Maintenance Web merupakan layanan dukungan teknis dan pemeliharaan website berkala dengan biaya Rp 200.000 per satu kali pengerjaan (bukan tagihan bulanan). Layanan ini digunakan saat Anda membutuhkan update menu harga, jam operasional, atau bantuan teknis.',
   },
-  // {
-  //   id: 'faq-12',
-  //   question: 'Apakah demo sistem pemesanan sudah tersedia?',
-  //   answer: 'Saat ini demo interaktif sistem pemesanan laundry sedang dalam tahap pengembangan aktif oleh tim kami. Anda dapat berkonsultasi langsung melalui WhatsApp untuk mendiskusikan alur sistem yang ingin diterapkan.',
-  // },
+  {
+    id: 'faq-12',
+    question: 'Apakah RuangLaundry melayani pembuatan website laundry di luar area Bekasi?',
+    answer: 'Ya, tentu. Seluruh proses konsultasi, perancangan sistem, hingga peluncuran website dilakukan sepenuhnya secara online. Tim kami siap mendampingi pemilik usaha laundry baik yang berada di Bekasi, kawasan Jabodetabek, maupun seluruh wilayah Indonesia.',
+  },
 ];
 

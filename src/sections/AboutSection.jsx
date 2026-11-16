@@ -46,7 +46,7 @@ export default function AboutSection() {
             </h3>
 
             <p className="text-content-secondary leading-relaxed text-sm sm:text-base mb-6">
-              RuangLaundry bukan sekadar pembuat template website umum. Kami fokus mendalami alur operasional laundry kiloan maupun satuan, mulai dari penimbangan berat cucian, nota digital, hingga pelacakan progres cucian yang transparan bagi pelanggan.
+              RuangLaundry bukan sekadar pembuat template website umum. Kami fokus mendalami alur operasional laundry kiloan maupun satuan, mulai dari penimbangan berat cucian, nota digital, hingga pelacakan progres cucian yang transparan bagi pelanggan. Layanan kami tersedia secara online penuh untuk mendampingi pemilik usaha laundry di Bekasi, kawasan Jabodetabek, hingga ke seluruh Indonesia.
             </p>
 
             {/* 3 Clean Editorial Points - No generic grey card outlines */}
