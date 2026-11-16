@@ -190,6 +190,7 @@ export default function HeroSection() {
               alt="Tim RuangLaundry"
               width="1536"
               height="1024"
+              fetchPriority="high"
               loading="eager"
               className="w-full h-full object-cover object-[center_top]"
             />
