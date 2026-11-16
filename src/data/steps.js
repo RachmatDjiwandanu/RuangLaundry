@@ -60,7 +60,7 @@ export const orderRuangLaundrySteps = [
   {
     step: 1,
     title: 'Pilih Paket Layanan',
-    description: 'Pilih paket yang paling sesuai dengan kebutuhan usaha Anda: paket awal RuangStart atau paket lengkap RuangCustom.',
+    description: 'Pilih paket yang paling sesuai dengan kebutuhan usaha Anda: paket awal Website Starter atau paket lengkap Website Custom.',
     icon: PackageSearch,
   },
   {

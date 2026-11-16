@@ -120,7 +120,7 @@ export default function PricingSection() {
             <Info className="w-5 h-5 text-brand-blue" />
           </div>
           <div className="flex-1 text-xs sm:text-sm text-content-secondary leading-relaxed">
-            <strong className="text-navy-primary">Catatan Penting:</strong> Harga paket pembuatan website (RuangStart & RuangCustom) sudah mencakup pendaftaran domain serta hosting sesuai ketentuan layanan. Layanan RuangCare merupakan jasa pemeliharaan berkala yang dihitung per satu kali layanan pengerjaan (bukan sistem tagihan bulanan).
+            <strong className="text-navy-primary">Catatan Penting:</strong> Harga paket pembuatan website (Website Starter & Website Custom) sudah mencakup pendaftaran domain serta hosting sesuai ketentuan layanan. Layanan Maintenance Web merupakan jasa pemeliharaan berkala yang dihitung per satu kali layanan pengerjaan (bukan sistem tagihan bulanan).
           </div>
         </div>
       </Container>

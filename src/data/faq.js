@@ -41,7 +41,7 @@ export const faqData = [
   {
     id: 'faq-8',
     question: 'Apakah biaya domain dan hosting sudah termasuk dalam paket?',
-    answer: 'Ya, paket pembuatan website (baik RuangStart maupun RuangCustom) sudah mencakup biaya pendaftaran domain dan hosting sesuai ketentuan layanan yang disepakati.',
+    answer: 'Ya, paket pembuatan website (baik Website Starter maupun Website Custom) sudah mencakup biaya pendaftaran domain dan hosting sesuai ketentuan layanan yang disepakati.',
   },
   {
     id: 'faq-9',
@@ -51,12 +51,12 @@ export const faqData = [
   {
     id: 'faq-10',
     question: 'Bagaimana cara memesan layanan RuangLaundry?',
-    answer: 'Pilih paket yang Anda butuhkan (RuangStart atau RuangCustom), kemudian klik tombol konsultasi untuk terhubung langsung dengan tim kami via WhatsApp resmi guna mendiskusikan detail kebutuhan Anda.',
+    answer: 'Pilih paket yang Anda butuhkan (Website Starter atau Website Custom), kemudian klik tombol konsultasi untuk terhubung langsung dengan tim kami via WhatsApp resmi guna mendiskusikan detail kebutuhan Anda.',
   },
   {
     id: 'faq-11',
-    question: 'Apa itu layanan RuangCare?',
-    answer: 'RuangCare merupakan layanan dukungan teknis dan pemeliharaan website berkala dengan biaya Rp200.000 per satu kali pengerjaan (bukan tagihan bulanan). Layanan ini digunakan saat Anda membutuhkan update menu harga, jam operasional, atau bantuan teknis.',
+    question: 'Apa itu layanan Maintenance Web?',
+    answer: 'Maintenance Web merupakan layanan dukungan teknis dan pemeliharaan website berkala dengan biaya Rp 200.000 per satu kali pengerjaan (bukan tagihan bulanan). Layanan ini digunakan saat Anda membutuhkan update menu harga, jam operasional, atau bantuan teknis.',
   },
   // {
   //   id: 'faq-12',

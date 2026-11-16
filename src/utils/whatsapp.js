@@ -6,9 +6,9 @@ export const WHATSAPP_NUMBER = "6289505799964";
 
 export const DEFAULT_WHATSAPP_MESSAGES = {
   general: "Halo RuangLaundry, saya tertarik menggunakan sistem pemesanan laundry online. Saya ingin mengetahui informasi lebih lanjut mengenai layanan yang tersedia.",
-  ruangStart: "Halo RuangLaundry, saya tertarik dengan paket RuangStart seharga Rp400.000. Mohon informasi lebih lanjut.",
-  ruangCustom: "Halo RuangLaundry, saya tertarik dengan paket RuangCustom seharga Rp1.000.000. Mohon informasi lebih lanjut.",
-  ruangCare: "Halo RuangLaundry, saya ingin mengetahui informasi mengenai layanan RuangCare seharga Rp200.000 per layanan.",
+  ruangStart: "Halo RuangLaundry, saya tertarik dengan paket Website Starter seharga Rp 300.000. Mohon informasi lebih lanjut.",
+  ruangCustom: "Halo RuangLaundry, saya tertarik dengan paket Website Custom seharga Rp 1.000.000. Mohon informasi lebih lanjut.",
+  ruangCare: "Halo RuangLaundry, saya ingin mengetahui informasi mengenai layanan Maintenance Web seharga Rp 200.000 per layanan.",
 };
 
 export function getWhatsAppUrl(message = DEFAULT_WHATSAPP_MESSAGES.general) {
