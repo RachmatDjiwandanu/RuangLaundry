@@ -24,7 +24,7 @@ export default function HeroSection() {
           style={{ clipPath: 'polygon(22% 0, 100% 0, 100% 100%, 0% 100%)' }}
         >
           <img
-            src="/assets/team-ruanglaundry.png"
+            src="/assets/team-ruanglaundry.webp"
             alt="Tim RuangLaundry - Penyedia Website & Solusi Digital Bisnis Laundry"
             width="1536"
             height="1024"
@@ -52,7 +52,7 @@ export default function HeroSection() {
                   aria-label="RuangLaundry Beranda"
                 >
                   <img
-                    src="/assets/logo-ruanglaundry.png"
+                    src="/assets/logo-ruanglaundry.webp"
                     alt="Logo RuangLaundry"
                     width="160"
                     height="36"
@@ -126,7 +126,7 @@ export default function HeroSection() {
             <div className="mb-5 sm:mb-6">
               <a href="#beranda" className="inline-block" aria-label="RuangLaundry">
                 <img
-                  src="/assets/logo-ruanglaundry.png"
+                  src="/assets/logo-ruanglaundry.webp"
                   alt="Logo RuangLaundry"
                   width="160"
                   height="36"
@@ -186,7 +186,7 @@ export default function HeroSection() {
             style={{ clipPath: 'polygon(0 0, 100% 4%, 100% 100%, 0 96%)' }}
           >
             <img
-              src="/assets/team-ruanglaundry.png"
+              src="/assets/team-ruanglaundry.webp"
               alt="Tim RuangLaundry"
               width="1536"
               height="1024"

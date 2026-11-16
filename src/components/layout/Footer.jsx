@@ -22,7 +22,7 @@ export default function Footer() {
               aria-label="RuangLaundry Beranda"
             >
               <img
-                src="/assets/logo-ruanglaundry.png"
+                src="/assets/logo-ruanglaundry.webp"
                 alt="Logo RuangLaundry"
                 width="160"
                 height="32"

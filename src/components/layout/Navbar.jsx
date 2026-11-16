@@ -60,7 +60,7 @@ export default function Navbar() {
             tabIndex={isVisible ? 0 : -1}
           >
             <img
-              src="/assets/logo-ruanglaundry.png"
+              src="/assets/logo-ruanglaundry.webp"
               alt="Logo RuangLaundry"
               width="160"
               height="36"

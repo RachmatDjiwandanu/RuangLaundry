@@ -24,7 +24,7 @@ export default function AboutSection() {
             <div className="rounded-2xl overflow-hidden bg-surface border border-border shadow-card p-2.5 sm:p-3">
               <div className="rounded-xl overflow-hidden bg-surface-muted aspect-[1672/941]">
                 <img
-                  src="/assets/full-team-ruanglaundry.png"
+                  src="/assets/full-team-ruanglaundry.webp"
                   alt="Seluruh Tim Profesional RuangLaundry (5 Orang)"
                   width="1672"
                   height="941"
