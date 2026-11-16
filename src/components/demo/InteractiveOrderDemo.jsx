@@ -69,7 +69,7 @@ export default function InteractiveOrderDemo() {
           </div>
           <div>
             <div className="flex items-center gap-2">
-              <h4 className="text-sm font-bold text-white">Simulasi Interaktif Sistem Pemesanan</h4>
+              <h3 className="text-sm font-bold text-white">Simulasi Interaktif Sistem Pemesanan</h3>
               <Badge variant="blue" size="sm">Coba Langsung</Badge>
             </div>
             <p className="text-xs text-surface-muted/80">

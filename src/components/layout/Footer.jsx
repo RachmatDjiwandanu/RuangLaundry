@@ -42,9 +42,9 @@ export default function Footer() {
 
           {/* Quick Links Column */}
           <div className="lg:col-span-3">
-            <h4 className="text-sm font-bold text-white uppercase tracking-wider mb-4">
+            <h3 className="text-sm font-bold text-white uppercase tracking-wider mb-4">
               Navigasi Halaman
-            </h4>
+            </h3>
             <ul className="space-y-2.5 text-sm">
               {navigationLinks.map((link) => (
                 <li key={link.href}>
@@ -61,9 +61,9 @@ export default function Footer() {
 
           {/* Contact & Support Column */}
           <div className="lg:col-span-4 flex flex-col items-start">
-            <h4 className="text-sm font-bold text-white uppercase tracking-wider mb-4">
+            <h3 className="text-sm font-bold text-white uppercase tracking-wider mb-4">
               Kontak Resmi
-            </h4>
+            </h3>
             <p className="text-xs sm:text-sm text-surface-muted/90 leading-relaxed mb-4">
               Ada pertanyaan seputar paket layanan atau sistem pemesanan? Hubungi tim kami langsung melalui WhatsApp:
             </p>

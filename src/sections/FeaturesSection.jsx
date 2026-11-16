@@ -170,9 +170,9 @@ export default function FeaturesSection() {
             <div className="w-10 h-10 rounded-xl bg-brand-blue/10 flex items-center justify-center text-brand-blue mb-4">
               <Scale className="w-5 h-5" />
             </div>
-            <h4 className="text-base font-bold text-navy-primary mb-2">
+            <h3 className="text-base font-bold text-navy-primary mb-2">
               Kalkulasi Biaya Timbangan Akurat
-            </h4>
+            </h3>
             <p className="text-xs sm:text-sm text-content-secondary leading-relaxed mb-4">
               Perhitungan tarif kiloan otomatis sesuai bobot aktual, mencegah salah hitung manual oleh kasir atau staf outlet Anda.
             </p>
@@ -185,9 +185,9 @@ export default function FeaturesSection() {
             <div className="w-10 h-10 rounded-xl bg-emerald-50 text-emerald-600 flex items-center justify-center mb-4 border border-emerald-100">
               <MessageSquare className="w-5 h-5" />
             </div>
-            <h4 className="text-base font-bold text-navy-primary mb-2">
+            <h3 className="text-base font-bold text-navy-primary mb-2">
               Terhubung Otomatis ke WhatsApp
-            </h4>
+            </h3>
             <p className="text-xs sm:text-sm text-content-secondary leading-relaxed mb-4">
               Data pesanan, alamat antar-jemput, dan kontak pelanggan langsung masuk ke WhatsApp toko dalam format teks siap baca.
             </p>
@@ -200,9 +200,9 @@ export default function FeaturesSection() {
             <div className="w-10 h-10 rounded-xl bg-brand-blue/10 flex items-center justify-center text-brand-blue mb-4">
               <CreditCard className="w-5 h-5" />
             </div>
-            <h4 className="text-base font-bold text-navy-primary mb-2">
+            <h3 className="text-base font-bold text-navy-primary mb-2">
               Instruksi Pembayaran & Arsip Data
-            </h4>
+            </h3>
             <p className="text-xs sm:text-sm text-content-secondary leading-relaxed mb-4">
               Menampilkan nomor rekening atau QRIS resmi laundry Anda, sekaligus mencatat riwayat pesanan pelanggan setia.
             </p>

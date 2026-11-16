@@ -135,10 +135,10 @@ export default function HeroSection() {
               </a>
             </div>
 
-            <h1 className="text-3xl sm:text-4xl font-extrabold text-white tracking-tight leading-[1.18] mb-4">
+            <p role="heading" aria-level="1" className="text-3xl sm:text-4xl font-extrabold text-white tracking-tight leading-[1.18] mb-4">
               Digitalisasikan Bisnis Laundry Anda,{' '}
               <span className="text-brand-accent">Kelola Pesanan Lebih Mudah.</span>
-            </h1>
+            </p>
 
             <p className="text-sm sm:text-base text-surface-muted/90 leading-relaxed mb-6">
               RuangLaundry menyediakan sistem pemesanan laundry berbasis website untuk membantu bisnis Anda mengelola pesanan dan memberikan pengalaman layanan yang lebih praktis bagi pelanggan.

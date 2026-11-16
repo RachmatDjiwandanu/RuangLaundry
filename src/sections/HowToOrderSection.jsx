@@ -57,9 +57,9 @@ export default function HowToOrderSection() {
         {/* CTA Bar */}
         <div className="bg-brand-light border border-brand-blue/20 rounded-2xl p-6 sm:p-8 flex flex-col sm:flex-row items-center justify-between gap-6 text-center sm:text-left">
           <div>
-            <h4 className="text-lg font-bold text-navy-primary">
+            <h3 className="text-lg font-bold text-navy-primary">
               Siap Menghadirkan Website Pemesanan untuk Laundry Anda?
-            </h4>
+            </h3>
             <p className="text-sm text-content-secondary mt-1">
               Konsultasikan nama domain dan paket yang sesuai dengan tim RuangLaundry hari ini.
             </p>
