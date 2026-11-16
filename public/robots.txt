@@ -1,5 +1,5 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://ruanglaundry.com/sitemap.xml
+Sitemap: https://ruang-laundry-liard.vercel.app/sitemap.xml
 
